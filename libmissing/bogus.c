@@ -1,1 +1,1 @@
-int _bogus;
+void _bogus(void) {};

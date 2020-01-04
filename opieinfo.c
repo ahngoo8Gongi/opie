@@ -40,7 +40,9 @@ License Agreement applies to this software.
 #if HAVE_PWD_H
 #include <pwd.h>
 #endif /* HAVE_PWD_H */
+#include <stdlib.h> /* FOR exit */
 #include "opie.h"
+#include "libopie.h"
 
 /* extern char *optarg; */
 extern int optind;

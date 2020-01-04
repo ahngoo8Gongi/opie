@@ -26,7 +26,11 @@ License Agreement applies to this software.
 */
 
 #include "opie_cfg.h"
+#include <string.h> /* FOR strcpy */
+#include <stdio.h> /* FOR sprintf */
+#include <stdlib.h> /* FOR rand */
 #include "opie.h"
+#include "libopie.h"
 
 static char *algids[] = { 0, 0, 0, "sha1", "md4", "md5" };
 

@@ -21,7 +21,12 @@ you didn't get a copy, you may request one from <license@inner.net>.
 */
 
 #include "opie_cfg.h"
+
+#if HAVE_STRING_H
+#include <string.h>
+#endif /* HAVE_STRING_H */
 #include "opie.h"
+#include "libopie.h"
 
 int opiepasswd FUNCTION((old, flags, principal, n, seed, ks), struct opie *old AND int flags AND char *principal AND int n AND char *seed AND char *ks)
 {

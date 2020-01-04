@@ -21,6 +21,11 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <string.h>
 #endif /* HAVE_STRING_H */
 #include <ctype.h>
+#if HAVE_STDLIB_H 
+#include <stdlib.h> /* FOR strtol */
+#endif /* HAVE_STDLIB_H */
+#include <time.h> /* FOR time */
+#include <stdio.h> /* FOR sprintf */
 #if HAVE_UNISTD_H
 #include <unistd.h>
 #endif /* HAVE_UNISTD_H */

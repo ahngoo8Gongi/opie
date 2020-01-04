@@ -18,6 +18,9 @@ License Agreement applies to this software.
         Created at NRL for OPIE 2.2 from opiesubr.c.
 */
 #include "opie_cfg.h"
+#include <stdio.h> /* FOR printf */
+#include <stdlib.h> /* FOR exit */
+
 #include "opie.h"
 
 VOIDRET opieversion FUNCTION_NOARGS

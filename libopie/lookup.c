@@ -13,6 +13,10 @@ you didn't get a copy, you may request one from <license@inner.net>.
 
 #include "opie_cfg.h"
 #include <stdio.h>
+#if HAVE_STRING_H
+#include <string.h> /* FOR memset */
+#endif /* HAVE_STRING_H */
+
 #include "opie.h"
 
 int opielookup FUNCTION((opie, principal), struct opie *opie AND char *principal)

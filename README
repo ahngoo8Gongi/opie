@@ -75,6 +75,11 @@ original Bellcore S/Key(tm) Version 1 software:
 A Glance at What's New
 ======================
 
+	3.0 November 23, 2019
+
+	Removed compile warnings and errors
+	Adjusted for new versions of autoconf	
+
 	2.32 January 1, 1998.
 
 	Indicate support for extended responses in challenges and check for
@@ -387,6 +392,10 @@ NRL), others at The Inner Net, and contributors from the Internet community.
 Versions beyond 2.2 were developed outside NRL, so don't blame them if they
 don't work (But please credit them when it does. Without the NRL effort, there
 wouldn't be an OPIE).
+
+	Version 3.0 was created and released by Holger Smolinski based on
+version 2.32 in order to establish a maintained version of OPIE. Some 
+reasonable effort was made to clarify copyright and license conditions.
 
 	We would like to also thank everyone who helped us by by beta testing,
 reporting bugs, suggesting improvements, and/or sending us patches. We

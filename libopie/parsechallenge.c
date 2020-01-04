@@ -17,6 +17,10 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #if HAVE_STRING_H
 #include <string.h>
 #endif /* HAVE_STRING_H */
+#if HAVE_STDLIB_H
+#include <stdlib.h> /* FOR strtoul */
+#endif /* HAVE_STDLIB_H */
+#include <ctype.h> /* FOR isspace */
 #include "opie.h"
 
 struct algorithm {

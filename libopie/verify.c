@@ -22,7 +22,10 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #ifdef HAVE_STRING_H
 #include <string.h>
 #endif /* HAVE_STRING_H */
+#include <stdlib.h> /* FOR abort */
+
 #include "opie.h"
+#include "libopie.h"
 
 #define RESPONSE_STANDARD  0
 #define RESPONSE_WORD      1

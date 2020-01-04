@@ -95,8 +95,8 @@ KEY_FILE=/etc/opiekeys
 # of OPIE. 
 #
 # The third is the above using nifty heap debugger called "Electric Fence".
-DEBUG=-O
-#DEBUG=-DDEBUG=1 -g
+#DEBUG=-O
+DEBUG=-DDEBUG=1 -g -Werror
 #DEBUG=-DDEBUG=1 -g -lefence
 
 # These parameters are determined by Autoconf and are probably correct.
@@ -118,7 +118,7 @@ LOCK_DIR=@LOCK_DIR@
 
 BACKUP=opie.old
 
-CFLAGS=$(DEBUG) -fPIC
+CFLAGS=$(DEBUG) -fPIC -I. -I./libopie
 
 LFLAGS=-Llibopie -Llibmissing -lopie $(LIBS) -lmissing -lopie
 LDEPS=libmissing/libmissing.a libopie/libopie.a

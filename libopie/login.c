@@ -34,6 +34,7 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <sys/stat.h>
 #if DEBUG
 #include <syslog.h>
+#include <unistd.h> /* FOR getpid */
 #include <errno.h>
 #endif /* DEBUG */
 #include "opie.h"

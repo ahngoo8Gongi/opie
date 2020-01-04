@@ -31,7 +31,10 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #if HAVE_STRING_H
 #include <string.h>
 #endif /* HAVE_STRING_H */
+#include <stdio.h> /* FOR sprintf */
+
 #include "opie.h"
+#include "libopie.h"
 
 static char *algids[] = { NULL, NULL, NULL, "sha1", "md4", "md5" };
 
