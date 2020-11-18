@@ -32,7 +32,6 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <string.h>
 #endif /* HAVE_STRING_H */
 #include <stdio.h> /* FOR sprintf */
-
 #include "opie.h"
 #include "libopie.h"
 

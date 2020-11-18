@@ -22,6 +22,8 @@ License Agreement applies to this software.
 #include <stdlib.h> /* FOR exit */
 
 #include "opie.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 VOIDRET opieversion FUNCTION_NOARGS
 {

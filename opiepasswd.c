@@ -61,7 +61,7 @@ License Agreement applies to this software.
 #endif /* HAVE_STDLIB_H */
 
 #include "opie.h"
-#include "libopie.h"
+#include "libopie/libopie.h"
 
 #define MODE_DEFAULT 0
 #define MODE_CONSOLE 1

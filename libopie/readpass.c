@@ -252,7 +252,7 @@ loop:
 	goto beep;
 
       if (flags & 1)
-        write(1, bsseq, sizeof(bsseq) - 1);
+        if( write(1, bsseq, sizeof(bsseq) - 1) <= 0) perror("write error");
       c--;
       goto loop;
     }
@@ -265,7 +265,7 @@ loop:
 
       if (flags & 1)
         while(c-- > buf)
-          write(1, bsseq, sizeof(bsseq) - 1);
+          if ( write(1, bsseq, sizeof(bsseq) - 1) <= 0) perror("write error");
 
       c = buf;
       goto loop;
@@ -275,12 +275,12 @@ loop:
     if (*c < 32)
       goto beep;
     if (flags & 1)
-      write(1, c, 1);
+      if (write(1, c, 1) <= 0) perror("write error");
     c++;
   } else {
   beep:
     *c = CONTROL('G');
-    write(1, c, 1);
+    if(write(1, c, 1) <= 0) perror("write error");
   }
 
   goto loop;

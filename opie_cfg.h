@@ -52,7 +52,7 @@ License Agreement applies to this software.
 #define _OPIE_CFG_H 1
 
 #define VERSION "2.90"
-#define DATE    "Saturday, November 23, 2019"
+#define DATE    "Wednesday, November 18, 2020"
 
 #ifndef unix
 #define unix 1

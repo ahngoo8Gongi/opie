@@ -118,7 +118,7 @@ LOCK_DIR=@LOCK_DIR@
 
 BACKUP=opie.old
 
-CFLAGS=$(DEBUG) -fPIC -I. -I./libopie
+CFLAGS=$(DEBUG) -fPIC -I. -I./libopie -Werror
 
 LFLAGS=-Llibopie -Llibmissing -lopie $(LIBS) -lmissing -lopie
 LDEPS=libmissing/libmissing.a libopie/libopie.a

@@ -52,6 +52,7 @@ AC_PREREQ([2.69])
 AC_INIT([opie], [2.90], [opie@nopicturesplease.de])
 #AC_CONFIG_SRCDIR([acconfig.h])
 AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE
 
 AC_ARG_ENABLE(access-file, [  --enable-access-file=FILENAME
                           Enable the OPIE access file FILENAME], AC_DEFINE_UNQUOTED(PATH_ACCESS_FILE, "$enable_access_file") echo "Using the access file in $enable_access_file -- don't say we didn't warn you!")

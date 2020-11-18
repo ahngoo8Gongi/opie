@@ -44,7 +44,7 @@ License Agreement applies to this software.
 #include <unistd.h> /* FOR getopt */
 
 #include "opie.h"
-#include "libopie.h"
+#include "libopie/libopie.h"
 
 #ifdef	__MSDOS__
 #include <dos.h>

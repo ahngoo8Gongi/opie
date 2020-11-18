@@ -24,7 +24,7 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <syslog.h>
 #endif /* DEBUG */
 #include "opie.h"
-#include "libopie.h"
+#include "libopie/libopie.h"
 
 int main FUNCTION((argc, argv), int argc AND char *argv[])
 {

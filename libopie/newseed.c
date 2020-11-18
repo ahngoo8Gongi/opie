@@ -36,6 +36,9 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #if DEBUG
 #include <syslog.h>
 #endif /* DEBUG */
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 #include "opie.h"
 
 int opienewseed FUNCTION((seed), char *seed)
@@ -79,7 +82,7 @@ int opienewseed FUNCTION((seed), char *seed)
 	    j = 1;
 	}
 
-	sprintf(seed, "%s%04d", buf, j);
+	sprintf(seed, "%s%04ld", buf, j);
 	return 0;
       }
     }

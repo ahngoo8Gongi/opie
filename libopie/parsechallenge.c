@@ -22,6 +22,8 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #endif /* HAVE_STDLIB_H */
 #include <ctype.h> /* FOR isspace */
 #include "opie.h"
+#include <stdlib.h>
+#include <ctype.h>
 
 struct algorithm {
   char *name;

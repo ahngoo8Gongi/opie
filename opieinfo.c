@@ -33,6 +33,7 @@ License Agreement applies to this software.
 
 #include "opie_cfg.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <errno.h>
 #if HAVE_UNISTD_H
 #include <unistd.h>
@@ -42,7 +43,7 @@ License Agreement applies to this software.
 #endif /* HAVE_PWD_H */
 #include <stdlib.h> /* FOR exit */
 #include "opie.h"
-#include "libopie.h"
+#include "libopie/libopie.h"
 
 /* extern char *optarg; */
 extern int optind;
