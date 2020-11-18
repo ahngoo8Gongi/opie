@@ -48,8 +48,6 @@ static struct _rtrans rtrans[] = {
   { RESPONSE_UNKNOWN, NULL }
 };
 
-static char *algids[] = { NULL, NULL, NULL, "sha1", "md4", "md5" };
-
 static int changed FUNCTION((opie), struct opie *opie)
 {
   struct opie opie2;

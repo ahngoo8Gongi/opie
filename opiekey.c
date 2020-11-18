@@ -59,9 +59,6 @@ extern int optind, opterr;
 
 int aflag = 0;
 
-char *algnames[] = { NULL, NULL, NULL, "SHA-1", "MD4", "MD5" };
-char *algids[] = { NULL, NULL, NULL, "sha1", "md4", "md5" };
-
 /******** Begin real source code ***************/
 
 static VOIDRET usage FUNCTION((s), char *s)

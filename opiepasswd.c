@@ -70,9 +70,6 @@ License Agreement applies to this software.
 extern int optind;
 extern char *optarg;
 
-char *algnames[] = { NULL, NULL, NULL, "SHA-1", "MD4", "MD5" };
-char *algids[] = { NULL, NULL, NULL, "sha1", "md4", "md5" };
-
 static VOIDRET usage FUNCTION((myname), char *myname)
 {
   fprintf(stderr, "usage: %s [-v] [-h] [-c|-d] [-f] [-n initial_sequence_number]\n                            [-s seed] [username]\n", myname);

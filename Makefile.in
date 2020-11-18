@@ -216,20 +216,8 @@ opiegen:	opiegen.o $(LDEPS)
 opieserv:	opieserv.o $(LDEPS)
 		$(CC) $(CFLAGS) opieserv.o $(LFLAGS) -o opieserv
 
-opieftpd:	opieftpd.o glob.o popen.o y.tab.o $(LDEPS)
-		$(CC) $(CFLAGS) opieftpd.o glob.o popen.o y.tab.o $(LFLAGS) -o opieftpd
-
-opielogin:	opielogin.o permsfile.o $(LDEPS)
-		$(CC) $(CFLAGS) opielogin.o permsfile.o $(LFLAGS) -o opielogin
-
 opiepasswd:	opiepasswd.o $(LDEPS)
 		$(CC) $(CFLAGS) opiepasswd.o $(LFLAGS) -o opiepasswd
-
-opiesu:		opiesu.o $(LDEPS)
-		$(CC) $(CFLAGS) opiesu.o $(LFLAGS) -o opiesu
-
-y.tab.c:	ftpcmd.y
-		$(YACC) ftpcmd.y
 
 opieinfo:	opieinfo.o $(LDEPS)
 		$(CC) $(CFLAGS) opieinfo.o $(LFLAGS) -o opieinfo

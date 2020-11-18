@@ -35,8 +35,6 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include "opie.h"
 #include "libopie.h"
 
-static char *algids[] = { NULL, NULL, NULL, "sha1", "md4", "md5" };
-
 int opiegenerator FUNCTION((buffer, secret, response), char *buffer AND char *secret AND char *response)
 {
   int algorithm;

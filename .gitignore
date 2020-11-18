@@ -2,10 +2,13 @@
 acconfig.h.bak
 autom4te.cache/
 autoscan.log
+config.cache
 config.h
 config.log
 config.status
 configure.scan
+compile
+missing
 # produced files
 *.o
 *.a

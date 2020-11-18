@@ -32,8 +32,6 @@ License Agreement applies to this software.
 #include "opie.h"
 #include "libopie.h"
 
-static char *algids[] = { 0, 0, 0, "sha1", "md4", "md5" };
-
 /* Generate a random challenge */
 /* This could grow into quite a monster, really. Random is good enough for
    most situations; it is certainly better than a fixed string */
