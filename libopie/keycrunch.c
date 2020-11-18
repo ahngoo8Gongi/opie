@@ -22,6 +22,7 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <ctype.h>
 
 #include "opie.h"
+#include "libopie.h"
 
 int opiekeycrunch FUNCTION((algorithm, result, seed, secret), int algorithm AND char *result AND char *seed AND char *secret)
 {

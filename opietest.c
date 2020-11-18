@@ -27,7 +27,11 @@ you didn't get a copy, you may request one from <license@inner.net>.
 */
 #include "opie_cfg.h"
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include "opie.h"
+#include "libopie.h"
 
 char buffer[1024];
 

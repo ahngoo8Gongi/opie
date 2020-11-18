@@ -51,8 +51,8 @@ License Agreement applies to this software.
 #ifndef _OPIE_CFG_H
 #define _OPIE_CFG_H 1
 
-#define VERSION "2.32"
-#define DATE    "Thursday, January 1, 1998"
+#define VERSION "2.33"
+#define DATE    "Wednesday, November 18, 2020"
 
 #ifndef unix
 #define unix 1

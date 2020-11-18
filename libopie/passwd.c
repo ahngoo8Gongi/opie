@@ -22,6 +22,9 @@ you didn't get a copy, you may request one from <license@inner.net>.
 
 #include "opie_cfg.h"
 #include "opie.h"
+#include "libopie.h"
+
+#include <string.h>
 
 int opiepasswd FUNCTION((old, flags, principal, n, seed, ks), struct opie *old AND int flags AND char *principal AND int n AND char *seed AND char *ks)
 {

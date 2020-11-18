@@ -23,6 +23,7 @@ you didn't get a copy, you may request one from <license@inner.net>.
 #include <string.h>
 #endif /* HAVE_STRING_H */
 #include "opie.h"
+#include "libopie.h"
 
 #define RESPONSE_STANDARD  0
 #define RESPONSE_WORD      1

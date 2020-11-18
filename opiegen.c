@@ -18,10 +18,13 @@ you didn't get a copy, you may request one from <license@inner.net>.
 */
 #include "opie_cfg.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #if DEBUG
 #include <syslog.h>
 #endif /* DEBUG */
 #include "opie.h"
+#include "libopie.h"
 
 int main FUNCTION((argc, argv), int argc AND char *argv[])
 {
